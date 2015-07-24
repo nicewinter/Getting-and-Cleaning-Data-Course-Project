@@ -1,11 +1,12 @@
             DATA DICTIONARY - Smart Phone Sensor Data
 
 
-subject     An identifier of the subject who carried out the experiment 
+subject:     An identifier of the subject who carried out the experiment 
 
             1-30
 
-activity    activity name
+activity:    Activity name
+
             1 WALKING
 
             2 WALKING_UPSTAIRS
@@ -46,8 +47,10 @@ Based on dimensions in 1,2 and 3 above, we got signals like tBodyAcc-XYZ and tGr
             std(): Standard deviation
 
 
-For example, "tBodyAccmeanX" denotes a time domain X-axis direction Body Acceleration Mean 
-For example, "fBodyAccMagstd" denotes a frequency domain Body Acceleration Magnitude Standard Deviation 
+For example, "tBodyAccmeanX" denotes a time domain X-axis direction Body Acceleration Mean.
+
+For example, "fBodyAccMagstd" denotes a frequency domain Body Acceleration Magnitude Standard Deviation.
+
 
 The complete list of variables is shown below:
 
