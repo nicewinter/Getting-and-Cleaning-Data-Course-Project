@@ -1,15 +1,23 @@
             DATA DICTIONARY - Smart Phone Sensor Data
 
+
 subject     An identifier of the subject who carried out the experiment 
+
             1-30
 
 activity    activity name
             1 WALKING
+
             2 WALKING_UPSTAIRS
+
             3 WALKING_DOWNSTAIRS
+
             4 SITTING
+
             5 STANDING
+
             6 LAYING
+
 
 Following are all 88 variables in the tidy data set. 
 
@@ -68,10 +76,10 @@ The complete list of variables is shown below:
 [64] "fBodyGyrostdX"                        "fBodyGyrostdY"                        "fBodyGyrostdZ"                       
 [67] "fBodyGyromeanFreqX"                   "fBodyGyromeanFreqY"                   "fBodyGyromeanFreqZ"                  
 [70] "fBodyAccMagmean"                      "fBodyAccMagstd"                       "fBodyAccMagmeanFreq"                 
-[73] "fBodyBodyAccJerkMagmean"              "fBodyBodyAccJerkMagstd"               "fBodyBodyAccJerkMagmeanFreq"         
-[76] "fBodyBodyGyroMagmean"                 "fBodyBodyGyroMagstd"                  "fBodyBodyGyroMagmeanFreq"            
-[79] "fBodyBodyGyroJerkMagmean"             "fBodyBodyGyroJerkMagstd"              "fBodyBodyGyroJerkMagmeanFreq"        
-[82] "angle.tBodyAccMean.gravity."          "angle.tBodyAccJerkMean..gravityMean." "angle.tBodyGyroMean.gravityMean."    
-[85] "angle.tBodyGyroJerkMean.gravityMean." "angle.X.gravityMean."                 "angle.Y.gravityMean."                
-[88] "angle.Z.gravityMean."  
+[73] "fBodyAccJerkMagmean"                  "fBodyAccJerkMagstd"                   "fBodyAccJerkMagmeanFreq"             
+[76] "fBodyGyroMagmean"                     "fBodyGyroMagstd"                      "fBodyGyroMagmeanFreq"                
+[79] "fBodyGyroJerkMagmean"                 "fBodyGyroJerkMagstd"                  "fBodyGyroJerkMagmeanFreq"            
+[82] "angle(tBodyAccMean,gravity)"          "angle(tBodyAccJerkMean),gravityMean)" "angle(tBodyGyroMean,gravityMean)"    
+[85] "angle(tBodyGyroJerkMean,gravityMean)" "angle(X,gravityMean)"                 "angle(Y,gravityMean)"                
+[88] "angle(Z,gravityMean)"  
 
