@@ -1,6 +1,18 @@
             DATA DICTIONARY - Smart Phone Sensor Data
 
 
+The tidy data set is a 180 x 88 data set.
+
+
+180 rows represent all 180 combinations of 30 subjects x 6 types of activities 
+
+
+88 columns represnet 88 variables. 
+
+
+Following are all 88 variables in the tidy data set. 
+
+
 subject:     An identifier of the subject who carried out the experiment 
 
             1-30
@@ -20,11 +32,10 @@ activity:    Activity name
             6 LAYING
 
 
-Following are all 88 variables in the tidy data set. 
 
 Besides subject and activity, all remaining 86 variables (i.e. columns) are extracted (either mean or standard devidation) measures/features. 
 
-Each value is an average of a specific measure/feature per subject per activity over all 10299 observation windows (each window is 2.56s).
+Each value in the data set is an average of a specific measure/feature per subject per activity over all 10299 observation windows in the raw data (each window is 2.56s).
 
 Those 86 measures/features are composed of a combination of any of following dimensions:
 
